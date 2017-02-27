@@ -3,7 +3,7 @@
   "version": "0.0.9",
   "main": "loader.js",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine"
+    "test": "jasmine"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,13 @@
     "mustache": "^2.3.0",
     "webpack": "^2.2.1"
   },
-  "description": "Webpack loader for .coffee files peprocessing (before translation) using Mustache template engine."
+  "description": "Webpack loader for .coffee files peprocessing (before translation) using Mustache template engine.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiMirLAN/coffee-mustache-preprocessor-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TiMirLAN/coffee-mustache-preprocessor-loader/issues"
+  },
+  "homepage": "https://github.com/TiMirLAN/coffee-mustache-preprocessor-loader#readme"
 }
