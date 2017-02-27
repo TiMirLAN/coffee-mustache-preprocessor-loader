@@ -1,0 +1,21 @@
+{
+  "name": "coffee-mustache-preprocessor-loader",
+  "version": "0.0.9",
+  "main": "loader.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "lodash": "^4.17.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mustache": "^2.3.0",
+    "webpack": "^2.2.1"
+  },
+  "description": "Webpack loader for .coffee files peprocessing (before translation) using Mustache template engine."
+}
