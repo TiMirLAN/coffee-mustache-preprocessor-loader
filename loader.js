@@ -2,9 +2,7 @@ const _                 = require( 'lodash' );
 const loaderUtils       = require( 'loader-utils' );
 let Mustache            = require( 'mustache' );
 
-const defaultOptions = {
-    interpolate: /#@\s*(\S*)\s*@#/g
-};
+const defaultOptions = {};
 
 Mustache.tags = ['#@', '@#'];
 
