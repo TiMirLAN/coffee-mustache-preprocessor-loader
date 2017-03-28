@@ -10,7 +10,7 @@ module.exports = function (source) {
     const { definitions, params } = loaderUtils.getLoaderConfig ( this );
     /* 'Cause I want render strings as 'string'`s */
     let context = _.reduce( definitions, ( acc, value, key ) => {
-        acc[key] = _.isString(value) ? `'${value}'` : value;
+        // acc[key] = _.isString(value) ? `'${value}'` : value;
         return acc;
     }, {} );
 
